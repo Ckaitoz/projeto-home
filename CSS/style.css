@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "inter";
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 375px;
+}
+body{
+    padding: 15px;
+}
+header{
+font-family: "inter",Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: space-between;
+}
+.hamburg{
+
+}
+menu{
+    display: none;
+}
+
+article{
+    font-family: "inter",Arial, Helvetica, sans-serif;
+}
