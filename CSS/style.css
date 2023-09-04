@@ -9,14 +9,18 @@
 }
 body{
     padding: 15px;
+    font-family: "inter",Arial, Helvetica, sans-serif;
 }
 header{
-font-family: "inter",Arial, Helvetica, sans-serif;
+
 display: flex;
 justify-content: space-between;
+padding-bottom: 20px;
 }
 .hamburg{
-
+    height: 25px;
+    width: 50px;
+    padding-top: 5px;
 }
 menu{
     display: none;
@@ -24,4 +28,67 @@ menu{
 
 article{
     font-family: "inter",Arial, Helvetica, sans-serif;
+}
+.block{
+    width: 100%;
+    height: 100%;
+}
+.inicio h1{
+    font-size: 2.8em;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+.inicio p{
+    font-size: 15px;
+    line-height: 23px;
+}
+.ler{
+    margin: 20px 0px;
+    border: none;
+    font-size: 18px;
+    font-stretch: extra-expanded;
+    padding: 8px 35px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+}
+
+section{
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 20px;
+    line-height: 30px;
+}
+section h1{
+    color: hsl(35, 77%, 62%);
+}
+section h2{
+    font-size: 1.3em;
+    padding-top: 20px;
+}
+section p{
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+article{
+    margin-top: 20px;
+}
+div{
+    padding: 25px 0px;
+}
+div img{
+    width: 100px;
+    height: 140px;
+    float: left;
+    padding-right: 20px;
+}
+div h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 2em;
+}
+div h2{
+    font-size: 1.2em;
+    padding: 10px 0px;
+}
+div p{
+    line-height: 25px;
 }
